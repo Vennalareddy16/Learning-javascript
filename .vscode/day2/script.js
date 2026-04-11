@@ -20,8 +20,16 @@ let userData=[10, "hello", 5.64, false, null]
 for(let index=0;index<userData.length;index++)
 {
     console.log(userData[index]);
-    console.log(typeof userData[index]);
+    //console.log(typeof userData[index]);
 }
-userData.push("java");
+console.log(userData);
 
-let arr=["hi" , 20 , 30 , null];
+userData.push(20);//it will add the element to the end of array
+userData.pop();//it will remove the last element
+
+userData.shift()// it will remove the first element
+userData.unshift("java")// it will add the element at starting
+
+console.log(userData);
+//let arr=["hi" , 20 , 30 , null];
+
