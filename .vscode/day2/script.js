@@ -23,3 +23,5 @@ for(let index=0;index<userData.length;index++)
     console.log(typeof userData[index]);
 }
 userData.push("java");
+
+let arr=["hi" , 20 , 30 , null];
