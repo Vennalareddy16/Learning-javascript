@@ -45,3 +45,54 @@ for (const key in user) {
     console.log(element)
     
 }
+
+function myFun(){
+    console.log(-1);
+    //return -1;
+
+}
+//console.log(myFun);
+console.log(myFun());
+
+//addition of 2 numbers
+function add(a,b){
+    return a+b;
+}
+console.log(add(10,20))
+
+function add(a,b){
+    return a-b;
+}
+console.log(add(20,5))
+
+//annonymous function
+const myFun1=function(a,b){
+    return a+b;
+}
+console.log(myFun1(40,'hi'));
+
+//calculator using switch case and functions
+
+function doMath(a,b,operator){
+    switch(operator){
+    case '+':
+           console.log(doMath(10,20,'+'))
+            break;
+            
+    case '-':console.log(doMath(20,10,'-'))
+            break;
+
+    case '*':
+                console.log(doMath(20,10,'*'))
+                break;
+    case '/': 
+                console.log(doMath(20,10,'/'));
+                break;
+    case '%':
+                console.lob(doMath(20,10,'%'))
+                break;
+    default:
+            console.log("Invalid Operator") 
+            break;
+    }
+}
