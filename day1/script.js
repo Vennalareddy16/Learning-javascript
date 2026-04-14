@@ -39,10 +39,10 @@ var a=20;
 console.log(a);
 
 
-let c=32;
-c=40;
-console.log(c);
+let d=32;
+d=40;
+console.log(d);
 
-const b=56;
-console.log(b);
+const e=56;
+console.log(e);
 
