@@ -11,11 +11,11 @@ console.log(document.body)
 
 let buchi=document.getElementById("buchi");
 
-//buchi.innerText="hello";
+buchi.innerText="hello";
 
-//buchi.innerText="<b>hello</b>";
+buchi.innerText="<b>hello</b>";
 
-//buchi.innerHTML="<b>hello</b>";
+buchi.innerHTML="<b>hello</b>";
 
 let Boxes=document.getElementsByClassName("box");
 
