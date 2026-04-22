@@ -17,11 +17,12 @@ const validateForm = (event) => {
         msg.style.color = "green";
     }
 }
-function showPassword() {
-    let pwd = document.getElementById("password");
-    if (pwd.type === "password") {
-        pwd.type = "text";
-    } else {
-        pwd.type = "password";
-    }
-}
+// function showPassword() {
+//     let pwd = document.getElementById("password");
+//     if (pwd.type === "password") {
+//         pwd.type = "text";
+//     } else {
+//         pwd.type = "password";
+//     }
+// }
+
